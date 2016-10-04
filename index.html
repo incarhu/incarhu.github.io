@@ -22,6 +22,27 @@
       </footer>
 
     </section>
+    
+    <section class="main-content">
+      <h1>什么是node</h1>
+      <p>Node 就是 JavaScript 语言在服务器端的运行环境</p>
+      <p>首先，JavaScript 语言通过 Node 在服务器运行，在这个意义上，Node 有点像 JavaScript 虚拟机；</p>
+      <p>其次，Node 提供大量工具库，使得 JavaScript 语言与操作系统互动（比如读写文件、新建子进程），在这个意义上， Node 又是 JavaScript 的工具库。</p>
+      <h1>安装操作步骤---</h1>
+      <p>1.下载：[nvm-windows](https://github.com/coreybutler/nvm-windows/releases/download/1.1.0/nvm-noinstall.zip)</p>
+      <p>2.编辑解压目录下的`settings.txt`文件（不存在则新建）</p>
+      <p>+ `root 配置为当前 nvm.exe 所在目录
+         + `path 配置为 node 快捷方式所在的目录
+         + `arch 配置为当前操作系统的位数（32/64）
+         + `proxy 不用配置
+      </p>
+      <p>3.配置环境变量</p>
+      <p>+ `NVM_HOME = 当前 nvm.exe 所在目录</p>
+      <p>+ `NVM_SYMLINK = node 快捷方式所在的目录</p>
+      <p>+ `PATH += %NVM_HOME%;%NVM_SYMLINK%;</p>
+      <p>+ 打开CMD通过`set [name]`命令查看环境变量是否配置成功</p>
+      <p></p>
+    </section>
 
   </body>
 </html>
