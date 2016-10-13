@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     <style>
       .mrlf20px{margin-left:20px;}
+      .red{color: #ff0000;}
     </style>
   </head>
   <body>
@@ -65,10 +66,12 @@
          <p>5、查看数据集合：<span>--db.student.find();</span></p>
          <p>6、查看数据库的所有集合：<span>--show collections</span></p>
          <p>7、导入外部集合json：<span>mongoimport --db demo --collection student --drop --file C:\Users\1.json</span></p>
-         <p>&nbsp;&nbsp;<span>--db demo (导入到哪个数据库)</span></p>
-         <p>&nbsp;&nbsp;<span>--collection student (导入到哪个集合)</span></p>
-         <p>&nbsp;&nbsp;<span>--drop (删除已存在的数据)</span></p>
-         <p>&nbsp;&nbsp;<span>--file C:\Users\1.json (需要导入哪个文件的路径)</span></p>
+         <div class="mrlf20px red">
+           <p >&nbsp;&nbsp;<span>--db demo (导入到哪个数据库)</span></p>
+           <p>&nbsp;&nbsp;<span>--collection student (导入到哪个集合)</span></p>
+           <p>&nbsp;&nbsp;<span>--drop (删除已存在的数据)</span></p>
+           <p>&nbsp;&nbsp;<span>--file C:\Users\1.json (需要导入哪个文件的路径)</span></p>
+         </div>        
          <p>8、查找数据，用find：<span>----db.student.find({"score.math":70},);</span></p>
          <p><span></span></p>
        </div> 
